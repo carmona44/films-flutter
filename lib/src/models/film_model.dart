@@ -69,4 +69,11 @@ class Film {
     }
     return 'https://image.tmdb.org/t/p/w500/$posterPath';
   }
+
+  getBackgroundDetailImg() {
+    if (backdropPath == null) {
+      return 'https://static.thenounproject.com/png/1554489-200.png';
+    }
+    return 'https://image.tmdb.org/t/p/w500/$backdropPath';
+  }
 }

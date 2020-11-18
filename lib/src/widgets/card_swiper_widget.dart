@@ -27,7 +27,7 @@ class CardSwiper extends StatelessWidget {
         //pagination: SwiperPagination(),
         //control: SwiperControl(),
         layout: SwiperLayout.STACK,
-        itemWidth: _screenSize.width * 0.7,
+        itemWidth: _screenSize.width * 0.6,
         itemHeight: _screenSize.height * 0.5,
       ),
     );
